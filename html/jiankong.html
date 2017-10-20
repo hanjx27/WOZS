@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="../js/mui.min.js"></script>
+    	<link href="../css/mui.min.css" rel="stylesheet"/>
+    	<link href="../css/iconfont.css" rel="stylesheet"/>
+    	<link href="../css/base.css" rel="stylesheet"/>
+    	<link href="../css/jiankong.css" rel="stylesheet"/>
+	</head>
+	<body>
+		
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">运营监控</h1>
+		</header>
+		<div class="mui-scroll-wrapper">
+			<div class="mui-scroll">
+				<div class="item">
+				<div class="item-title">收入</div>
+				<div class="item-cells">
+					<div class="item-cell cell-last"><span class="logo SR"></span><span class="cell-text">网格收入</span><span class="WOZSIcon icon-arrow-right"></span></div>
+				</div>
+			</div>
+			
+			<div class="item">
+				<div class="item-title">用户</div>
+				<div class="item-cells">
+					<div class="item-cell"><span class="logo KDYW"></span><span class="cell-text">移网业务</span><span class="WOZSIcon icon-arrow-right"></span></div>
+					<div class="item-cell"><span class="logo GWYW"></span><span class="cell-text">固网业务</span><span class="WOZSIcon icon-arrow-right"></span></div>
+					<div class="item-cell cell-last"><span class="logo RHYW"></span><span class="cell-text">融合业务</span><span class="WOZSIcon icon-arrow-right"></span></div>
+
+				</div>
+			</div>
+			
+			<div class="item">
+				<div class="item-title">小区</div>
+				<div class="item-cells">
+					<div class="item-cell cell-last"><span class="logo QBXQ"></span><span class="cell-text">全部小区</span><span class="WOZSIcon icon-arrow-right"></span></div>
+				</div>
+			</div>
+			
+			<div class="item">
+				<div class="item-title">渠道</div>
+				<div class="item-cells">
+					<div class="item-cell"><span class="logo KHJL"></span><span class="cell-text">客户经理</span><span class="WOZSIcon icon-arrow-right"></span></div>
+					<div class="item-cell"><span class="logo ZYYYT"></span><span class="cell-text">自有营业厅</span><span class="WOZSIcon icon-arrow-right"></span></div>
+					<div class="item-cell cell-last"><span class="logo SHQD"></span><span class="cell-text">社会渠道</span><span class="WOZSIcon icon-arrow-right"></span></div>
+				</div>
+			</div>
+			
+			<div class="item">
+				<div class="item-title">网络</div>
+				<div class="item-cells">
+					<div class="item-cell cell-last"><span class="logo JZ"></span><span class="cell-text">基站</span><span class="WOZSIcon icon-arrow-right"></span></div>
+				</div>
+			</div>
+			
+			<div class="item">
+				<div class="item-title">终端</div>
+				<div class="item-cells">
+					<div class="item-cell"><span class="logo ZDXS"></span><span class="cell-text">终端销售</span><span class="WOZSIcon icon-arrow-right"></span></div>
+					<div class="item-cell cell-last"><span class="logo ZDXS"></span><span class="cell-text">终端登网</span><span class="WOZSIcon icon-arrow-right"></span></div>
+				</div>
+			</div>
+			
+			<div class="item">
+				<div class="item-title">运维</div>
+				<div class="item-cells">
+					<div class="item-cell"><span class="logo ZJ"></span><span class="cell-text">装机</span><span class="WOZSIcon icon-arrow-right"></span></div>
+					<div class="item-cell"><span class="logo XZ"></span><span class="cell-text">修障</span><span class="WOZSIcon icon-arrow-right"></span></div>
+					<div class="item-cell cell-last"><span class="logo TS"></span><span class="cell-text">投诉</span><span class="WOZSIcon icon-arrow-right"></span></div>
+				</div>
+			</div>
+			
+			<div class="bottom">	
+			</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" charset="utf-8">
+    	mui.init();
+ 	 	mui.plusReady(function() {
+ 	 		mui('.mui-scroll-wrapper').scroll({
+				deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+			});
+    	})
+    	</script>
+	</body>
+</html>

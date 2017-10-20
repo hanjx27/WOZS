@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    	<title></title>
+    	<script src="js/mui.min.js"></script>
+    	<link href="css/mui.min.css" rel="stylesheet"/>
+    	<link href="css/iconfont.css" rel="stylesheet"/>
+    	<link href="css/base.css" rel="stylesheet"/>
+    	<link href="css/menu.css" rel="stylesheet"/>
+		<title></title>
+		
+		<style type="text/css">
+			body,
+			.mui-content {
+				background-color: #333;
+				color: #fff;
+			}
+			
+			.title {
+				margin: 35px 15px 10px;
+			}
+			
+			.title+.content {
+				margin: 10px 15px 35px;
+				color: #bbb;
+				text-indent: 1em;
+				font-size: 14px;
+				line-height: 24px;
+			}
+			
+			.mui-table-view {
+				margin-bottom: 35px;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div class="mui-content">
+			<div class="title">测试用户</div>
+			
+			<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted" style="color: #ddd;">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						我的资料
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						定制页面说明
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right" data-title-type="native">
+						指标显示
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right" data-title-type="native">
+						预警设置
+					</a>
+				</li>
+			</ul>
+			
+			
+			<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted" style="color: #ddd;">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						意见反馈
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						关于我们
+					</a>
+				</li>
+			</ul>
+			
+			<p style="margin: 10px 35px;">
+					<button id="close-btn" type="button" class="mui-btn mui-btn-danger mui-btn-block" style="padding: 5px 20px;">退出登录</button>
+				</p>
+		</div>
+	</body>
+</html>

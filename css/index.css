@@ -1,0 +1,109 @@
+.index-yonghu {
+	display:inline-block;
+    padding-right: 10px;
+    padding-left: 11px;
+    font-size: 24px;
+    position: relative;
+    z-index: 20;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    color:#007aff;
+}
+
+.warning-bar {
+	margin-top:10px;
+	width:100%;
+	height:36px;
+	background-color:rgb(252,198,206);
+	border-bottom:1px solid rgb(235,235,235);
+}
+.tanhao {
+	float:left;
+	margin-top:7px;
+	margin-left:20px;
+	font-size:25px;
+	color:rgb(189,57,47);
+}
+.warning-text {
+	float:left;
+	height:100%;
+	color:#000;
+	font-size:12px;
+	line-height:36px;
+	margin-left:10px;
+}
+.search-area {
+	position:relative;
+	width:100%;
+	height:55px;
+	padding:10px 0;
+}
+.mui-input-clear {
+	height:35px !important;
+	font-size:13px;
+	width:76% !important;
+	margin-left:12%;
+	border:1px solid rgb(235,235,235) !important;
+}
+.icon-search {
+	display:block;
+	position:absolute;
+	top:16px;
+	right:16%;
+	width:23px;
+	height:23px;
+	background:url("../images/search.png") no-repeat;
+	background-size:23px 23px;
+}
+.collect-content {
+	padding-left:4%;
+	padding-right:4%;
+}
+.collect-help {
+	width:100%;
+}
+.new-collect {
+	padding-bottom:15px;
+}
+.collect-add-icon {
+	width:50px;
+	height:50px;
+	font-weight:100;
+	margin:15px auto 20px auto;
+	background: url(../images/collect-add.png) no-repeat;
+	background-size: 50px 50px;
+}
+
+.mui-scroll-wrapper {
+	top:85px;
+}
+.collect-help-img {
+	width:100%;
+	position:relative;
+}
+.mask {
+	position:absolute;
+	width:100%;
+	height:35px;
+	line-height:35px;
+	z-index: 998;
+    background-color: rgba(0,0,0,.4);
+    bottom:0px;
+    color:white;
+}
+.mask-text-1 {
+	float:left;
+	font-size:14px;
+	margin-left:10px;
+}
+.mask-text-2 {
+	float:right;
+	font-size:12px;
+	margin-right:10px;
+}
+.mask-arrow {
+	font-size:12px;
+	color:white;
+	float:right;
+	margin-right:15px;
+}
